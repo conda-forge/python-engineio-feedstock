@@ -1,8 +1,9 @@
 {%set name = "python-engineio" %}
-{%set version = "1.0.0" %}
+{%set version = "1.2.2" %}
 {%set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "1fd34c5362d15bbc255a408cb280dded44c97d460076a324eae10515c2a05c6a" %}
+{%set hash_val = "d2f7a44a176c06edc2604e0b1d4e0a84e554dfb8b1c4add5a566eb1863bca34c" %}
+{%set build_num = "0" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +15,7 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: 0
+  number: {{ build_num }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
