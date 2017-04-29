@@ -14,9 +14,9 @@ Summary: Engine.IO server
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/python-engineio-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/python-engineio-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/python-engineio-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/python-engineio-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/python-engineio-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/python-engineio-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/tmpdzccl6sc-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tmpdzccl6sc-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/tmpdzccl6sc-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/tmpdzccl6sc-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/tmpdzccl6sc-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/tmpdzccl6sc-feedstock/branch/master)
 
 Current release info
 ====================
