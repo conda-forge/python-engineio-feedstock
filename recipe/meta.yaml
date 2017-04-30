@@ -1,9 +1,9 @@
 {%set name = "python-engineio" %}
-{%set version = "1.3.2" %}
+{%set version = "1.4.0" %}
 {%set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "2e441de79dd8937712c3ec293d8c93cdffbfba1bce095dd59eea91af7fa0cc43" %}
-{%set build_num = "0" %}
+{%set hash = "488f7761aaa4ab84ae4356755efe0e689de1dbc98052c9533a3f1aa9ce13e8c7" %}
+{%set build = 0 %}
 
 package:
   name: {{ name|lower }}
@@ -12,10 +12,10 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ compress_type }}
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
-  {{ hash_type }}: {{ hash_val }}
+  {{ hash_type }}: {{ hash }}
 
 build:
-  number: {{ build_num }}
+  number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -42,13 +42,13 @@ test:
     - engineio.socket
 
 about:
-  home: http://github.com/miguelgrinberg/python-engineio/
-  license: MIT
+  home: https://github.com/miguelgrinberg/python-engineio/
   license_file: LICENSE
+  license: MIT
   license_family: MIT
   summary: 'Engine.IO server'
   doc_url: https://python-engineio.readthedocs.io
-  dev_url: http://github.com/miguelgrinberg/python-engineio/
+  dev_url: https://github.com/miguelgrinberg/python-engineio/
 
 extra:
   recipe-maintainers:
