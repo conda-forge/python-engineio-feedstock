@@ -1,8 +1,8 @@
 {% set name = "python-engineio" %}
-{% set version = "2.0.2" %}
+{% set version = "2.0.4" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "46c710a72c3b2a8511b0d7963c46e200010f8ea3eb0721ce15603d0f23e993c4" %}
+{% set hash = "42354c29e18074d600e6271978654aa2cc24bf7a0c37da36de75e24b883a9077" %}
 {% set build = 0 %}
 
 package:
@@ -15,7 +15,7 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: {{ build }}
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
   noarch: python
 
