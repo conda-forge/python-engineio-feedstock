@@ -14,12 +14,15 @@ Summary: Engine.IO server
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/python-engineio-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/python-engineio-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/python-engineio-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/python-engineio-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-engineio/badges/version.svg)](https://anaconda.org/conda-forge/python-engineio)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-engineio/badges/downloads.svg)](https://anaconda.org/conda-forge/python-engineio)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-python--engineio-green.svg)](https://anaconda.org/conda-forge/python-engineio) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/python-engineio.svg)](https://anaconda.org/conda-forge/python-engineio) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/python-engineio.svg)](https://anaconda.org/conda-forge/python-engineio) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/python-engineio.svg)](https://anaconda.org/conda-forge/python-engineio) |
 
 Installing python-engineio
 ==========================
