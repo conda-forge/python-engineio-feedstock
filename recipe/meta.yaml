@@ -33,7 +33,7 @@ test:
     # - engineio.async_eventlet
     # - engineio.async_gevent
     # - engineio.async_gevent_uwsgi
-    - engineio.async_threading
+    # - engineio.async_threading
     - engineio.middleware
     - engineio.packet
     - engineio.payload
