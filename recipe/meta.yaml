@@ -1,8 +1,8 @@
 {% set name = "python-engineio" %}
-{% set version = "3.0.0" %}
+{% set version = "3.11.2" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "bb8b5888adb852614b4b1861586ee7d89145cbd2ebba03ed7043e64c029bbb3b" %}
+{% set hash = "47ae4a9b3b4f2e8a68929f37a518338838e119f24c9a9121af92c49f8bea55c3" %}
 
 package:
   name: {{ name|lower }}
@@ -33,7 +33,7 @@ test:
     # - engineio.async_eventlet
     # - engineio.async_gevent
     # - engineio.async_gevent_uwsgi
-    - engineio.async_threading
+    # - engineio.async_threading
     - engineio.middleware
     - engineio.packet
     - engineio.payload
@@ -52,3 +52,4 @@ about:
 extra:
   recipe-maintainers:
     - pmlandwehr
+    - ReimarBauer
