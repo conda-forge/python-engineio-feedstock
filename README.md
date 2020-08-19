@@ -5,7 +5,7 @@ Home: https://github.com/miguelgrinberg/python-engineio/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Engine.IO server
 
