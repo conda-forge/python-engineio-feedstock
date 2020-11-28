@@ -1,8 +1,7 @@
 {% set name = "python-engineio" %}
-{% set version = "3.11.2" %}
+{% set version = "3.14.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash = "47ae4a9b3b4f2e8a68929f37a518338838e119f24c9a9121af92c49f8bea55c3" %}
+{% set hash = "a111b4fe44e639e997b1dbf099e02d7c2c8931bbb4580980811794fa7711a9ed" %}
 
 package:
   name: {{ name|lower }}
@@ -11,15 +10,15 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash }}
+  sha256: {{ hash }}
 
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
 
@@ -45,7 +44,7 @@ about:
   license_file: LICENSE
   license: MIT
   license_family: MIT
-  summary: 'Engine.IO server'
+  summary: Engine.IO server
   doc_url: https://python-engineio.readthedocs.io
   dev_url: https://github.com/miguelgrinberg/python-engineio/
 
