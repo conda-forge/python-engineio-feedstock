@@ -5,11 +5,13 @@ Home: https://github.com/miguelgrinberg/python-engineio/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-engineio-feedstock/blob/master/LICENSE.txt)
 
 Summary: Engine.IO server
 
+Development: https://github.com/miguelgrinberg/python-engineio/
 
+Documentation: https://python-engineio.readthedocs.io
 
 Current build status
 ====================
@@ -118,4 +120,5 @@ Feedstock Maintainers
 
 * [@ReimarBauer](https://github.com/ReimarBauer/)
 * [@pmlandwehr](https://github.com/pmlandwehr/)
+* [@synapticarbors](https://github.com/synapticarbors/)
 
