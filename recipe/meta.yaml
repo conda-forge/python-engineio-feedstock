@@ -1,30 +1,26 @@
 {% set name = "python-engineio" %}
 {% set version = "3.14.1" %}
-{% set bundle = "tar.gz" %}
-{% set hash = "7569cc635a4de401bbfd3b73d43150f945189ab9db009282cc20719f1ae8a0dd" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  sha256: {{ hash }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 7569cc635a4de401bbfd3b73d43150f945189ab9db009282cc20719f1ae8a0dd
 
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
 
   run:
-    - python
-    - six >=1.9.0
+    - python >=3.5
 
 test:
   imports:
@@ -52,3 +48,4 @@ extra:
   recipe-maintainers:
     - pmlandwehr
     - ReimarBauer
+    - synapticarbors
