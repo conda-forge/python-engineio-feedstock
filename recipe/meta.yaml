@@ -34,6 +34,10 @@ test:
     - engineio.payload
     - engineio.server
     - engineio.socket
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/miguelgrinberg/python-engineio/
