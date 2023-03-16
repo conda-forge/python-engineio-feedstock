@@ -1,11 +1,11 @@
-About python-engineio
-=====================
+About python-engineio-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-engineio-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/miguelgrinberg/python-engineio/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-engineio-feedstock/blob/main/LICENSE.txt)
 
 Summary: Engine.IO server
 
