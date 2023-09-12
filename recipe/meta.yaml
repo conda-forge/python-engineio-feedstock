@@ -21,6 +21,7 @@ requirements:
 
   run:
     - python >=3.6
+    - simple-websocket >=0.10.0
 
 test:
   imports:
