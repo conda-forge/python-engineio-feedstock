@@ -18,7 +18,7 @@ requirements:
   host:
     - python >=3.6
     - pip
-
+    - setuptools >=61.2
   run:
     - python >=3.6
     - simple-websocket >=0.10.0
