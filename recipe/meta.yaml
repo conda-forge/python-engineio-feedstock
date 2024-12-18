@@ -10,17 +10,17 @@ source:
   sha256: 166cea8dd7429638c5c4e3a4895beae95196e860bc6f29ed0b9fe753d1ef2072
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
     - setuptools >=61.2
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - simple-websocket >=0.10.0
 
 test:
@@ -37,6 +37,7 @@ test:
     - engineio.socket
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
