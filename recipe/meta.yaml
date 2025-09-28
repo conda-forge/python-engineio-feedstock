@@ -1,5 +1,5 @@
 {% set name = "python-engineio" %}
-{% set version = "4.12.2" %}
+{% set version = "4.12.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/{{ name }}/python_engineio-{{ version }}.tar.gz
-  sha256: e7e712ffe1be1f6a05ee5f951e72d434854a32fcfc7f6e4d9d3cae24ec70defa
+  sha256: 35633e55ec30915e7fc8f7e34ca8d73ee0c080cec8a8cd04faf2d7396f0a7a7a
 
 build:
   number: 0
