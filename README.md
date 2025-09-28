@@ -11,7 +11,7 @@ Summary: Engine.IO server
 
 Development: https://github.com/miguelgrinberg/python-engineio/
 
-Documentation: https://python-engineio.readthedocs.io
+Documentation: https://python-engineio.readthedocs.io/
 
 Current build status
 ====================
