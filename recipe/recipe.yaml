@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: python-engineio
-  version: 4.12.3
+  version: "4.13.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/${{ name }}/python_engineio-${{ version }}.tar.gz
-  sha256: 35633e55ec30915e7fc8f7e34ca8d73ee0c080cec8a8cd04faf2d7396f0a7a7a
+  sha256: f9c51a8754d2742ba832c24b46ed425fdd3064356914edd5a1e8ffde76ab7709
 
 build:
   number: 0
