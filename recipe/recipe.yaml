@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: python-engineio
-  version: "4.13.5"
+  version: "4.14.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/${{ name }}/python_engineio-${{ version }}.tar.gz
-  sha256: b5764d62243e3ffbc4c76dda3d7897c329dc52294c80c27105f9faa054e76897
+  sha256: eaa1e386baf9c2c7959eef7f9d9165c5ea910c5b392f5316e78d29ed073cb43d
 
 build:
   number: 0
@@ -40,7 +40,7 @@ tests:
         - engineio.server
         - engineio.socket
       pip_check: true
-      python_version: 
+      python_version:
         - ${{ python_min }}.*
         - "*"
 
